@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* Reset */
+
+* {
+    color: #222;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+a:link {
+    color: #555;
+}
+
+a:visited {
+    color: #555;
+}
+
+a:hover {
+    color: #555;
+}
+
+a:active {
+    color: #555;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+/* Reset */
+
+
+/* 배경이미지 적용 */
+div#outerWrap {
+    /* body 요소로 배경이 완벽하게 채워지지 않으므로
+        배경이미지용 div#outerWrap을 만들어
+        배경이미지를 적용함 */
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    /*
+    repeat 속성으로 배경 이미지 크기 조절 안됨
+    */
+    background-size: cover;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* 배경이미지 적용 */
+
+
+/* Guide Line */
+div#wrap {
+    border: 1px solid #000;
+}
+
+header#header {
+    border: 1px solid #000;
+}
+
+nav#gnb {
+    border: 1px solid #000;
+}
+
+main#main {
+    border: 1px solid #000;
+}
+
+div#contents {
+    border: 1px solid #000;
+}
+
+footer#footer {
+    border: 1px solid #000;
+}
+
+/* Guide Line */
+
+
+
+
+/* div#wrap */
+div#wrap {
+    width: 1060px;
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+/* div#wrap */
+
+
+/* header#header */
+header#header {
+    width: 1060px;
+    height: 195px;
+}
+
+/* header#header */
+
+
+
+/* nav#gnb */
+nav#gnb {
+    padding-left: 40px;
+    background-color: #c51a3a;
+}
+
+#gnb a {
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 10px;
+
+    display: inline-block;
+}
+
+#gnb a:hover {   /* 작업지시사항 1번 */
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+/* nav#gnb */
+
+
+/* main#main */
+div#shopImg {
+    padding: 20px;
+}
+
+div#greetingMsg {
+    padding: 50px 44px;
+}
+
+#greetingMsg h2 {
+    padding-left: 20px;
+    margin-bottom: 26px;
+}
+#greetingMsg p {
+    color: #d86539;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+/* main#main */
+
+
+/* div#contents */
+
+/* div#contents */
+
+
+/* footer#footer */
+
+/* footer#footer */
+
+
+
+
+
