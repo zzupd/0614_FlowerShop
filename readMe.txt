@@ -64,9 +64,11 @@ location.href = "https://www.naver.com";
    퍼블리셔가 만든 파일을
    저장하는 공간을 지정함.
    => Github, 깃허브
+   URL => https://www.github.com/
 
 3. 편집기에서 Git을 사용하여
    Github를 연동하는 플러그인 설치
+   => Brackets Git 설치
 
 4. 업로드/다운로드로 
    작업자가 만든 파일을 관리함.
